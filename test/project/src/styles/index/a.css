@@ -1,0 +1,4 @@
+require('../index.css');
+require('../lib/common.css');
+
+#a { color: #aaa; }

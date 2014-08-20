@@ -1,0 +1,4 @@
+require('./index/a.css');
+require('./index/b.css');
+
+#index { color: #333; }
