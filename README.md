@@ -111,4 +111,23 @@ project
 ```
 
 ### sync
-make sure you installed rsync ( find it here (http://rsync.samba.org/) )
+sync all package to target server
+
+make sure you installed rsync (find it here http://rsync.samba.org/)
+
+set dev environment in .config
+(File .config) e.g
+```javascript
+{
+	"dev": [
+		"host": "127.0.0.1",
+		"path": "/home/q/www/project/"
+	]
+}
+```
+
+run
+before run min, make sure the project is working directory
+```bash
+$ alien sync
+```
