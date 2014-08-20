@@ -17,8 +17,10 @@ before we run the commands of alien, we should have a project first
 ```
 project
 ├─┬src
-│ ├──scripts
-│ └──styles
+│ ├─┬scripts
+│ │ └──...
+│ └─┬styles
+│   └──...
 └─.config
 ```
 you can checkout (https://github.com/purplecalm/alien.git) to get a test case
@@ -66,7 +68,47 @@ project
 │ └─┬styles
 │   └──index@dev.css
 ├─┬src
-│ ├──scripts
-│ └──styles
+│ ├─┬scripts
+│ │ └──...
+│ └─┬styles
+│   └──...
 └─.config
 ```
+
+### min
+minify exports files
+
+(File .config) e.g
+```javascript
+{
+	"exports": [
+		"scripts/index.js",
+		"styles/index.css"
+	]
+}
+```
+
+run
+before run min, make sure the project is working directory
+```bash
+$ alien min
+```
+
+result
+```
+project
+├─┬prd(product directory)
+│ ├─┬scripts
+│ │ └──index@bc23723a6ebdd528a774264d37173293.js
+│ └─┬styles
+│   └──index@db47495f5329bd6a6df53228034d4746.css
+├─┬src
+│ ├─┬scripts
+│ │ └──...
+│ └─┬styles
+│   └──...
+└─.config
+```
+
+### sync
+make sure you installed rsync ( find it here (http://rsync.samba.org/) )
