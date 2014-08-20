@@ -30,9 +30,9 @@ $ alien server
 ```
 
 server has three modes, [SRC|DEV|PRD]
-SRC: source mode, return every file, esay to debug
-DEV: package mode, return files' package
-PRD: product mode, return minified code
+  * SRC: source mode, return every file, esay to debug
+  * DEV: package mode, return files' package
+  * PRD: product mode, return minified code
 
 ```bash
 $ alien server -m DEV
