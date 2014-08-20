@@ -37,3 +37,36 @@ server has three modes, [SRC|DEV|PRD]
 ```bash
 $ alien server -m DEV
 ```
+
+### pack
+packing exports files
+
+(File .config) e.g
+```javascript
+{
+	"exports": [
+		"scripts/index.js",
+		"styles/index.css"
+	]
+}
+```
+
+run
+before run pack, make sure the project is working directory
+```bash
+$ alien pack
+```
+
+result
+```
+project
+├─┬dev(package directory)
+│ ├─┬scripts
+│ │ └──index@dev.js
+│ └─┬styles
+│   └──index@dev.css
+├─┬src
+│ ├──scripts
+│ └──styles
+└─.config
+```
