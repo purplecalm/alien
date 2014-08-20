@@ -1,0 +1,23 @@
+{
+  "name": "alien",
+  "version": "0.0.6",
+  "description": "为前端开发整合的打包工具, 支持AMD.",
+  "author": {
+    "name": "purple.calm",
+    "email": "purple.calm@gmail.com"
+  },
+  "bin": {
+    "alien": "./bin/run"
+  },
+  "dependencies": {
+    "MD5": "1.0.x",
+    "optimist": "0.3.x",
+    "async": "*",
+    "express": "*",
+    "uglify-js": "*",
+    "clean-css": "*",
+    "MD5": "*",
+    "colors": "*"
+  },
+  "scripts": {}
+}

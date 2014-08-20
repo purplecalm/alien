@@ -1,0 +1,5 @@
+.git
+.svn
+node_modules
+test
+!vendors/**/node_modules
