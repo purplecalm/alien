@@ -1,7 +1,7 @@
 {
   "name": "alien",
-  "version": "0.1.0",
-  "description": "为前端开发整合的打包工具",
+  "version": "0.1.1",
+  "description": "Fe development tools",
   "author": {
     "name": "purple.calm",
     "email": "purple.calm@gmail.com"
