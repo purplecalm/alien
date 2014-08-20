@@ -117,10 +117,10 @@ set dev environment in .config
 (File .config) e.g
 ```javascript
 {
-	"dev": [
+	"dev": {
 		"host": "127.0.0.1",
 		"path": "/home/q/www/project/"
-	]
+	}
 }
 ```
 
@@ -134,3 +134,6 @@ we also run pack and sync together
 ```bash
 $ alien pack && alien sync
 ```
+
+### help
+Aha!
