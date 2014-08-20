@@ -2,7 +2,7 @@ Alien
 ===
 
 ## Require
-  * rsync
+  * rsync (http://rsync.samba.org/)
 
 ## Installation
 ```bash
