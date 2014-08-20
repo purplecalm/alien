@@ -53,7 +53,6 @@ packing exports files
 }
 ```
 
-run
 before run pack, make sure the project is working directory
 ```bash
 $ alien pack
@@ -88,7 +87,6 @@ minify exports files
 }
 ```
 
-run
 before run min, make sure the project is working directory
 ```bash
 $ alien min
@@ -113,7 +111,7 @@ project
 ### sync
 sync all package to target server
 
-make sure you installed rsync (find it here http://rsync.samba.org/)
+*make sure you installed rsync* (find it here http://rsync.samba.org/)
 
 set dev environment in .config
 (File .config) e.g
@@ -126,8 +124,13 @@ set dev environment in .config
 }
 ```
 
-run
-before run min, make sure the project is working directory
+before run sync
+  * make sure the project is working directory
+  * make sure you packed your project before
 ```bash
 $ alien sync
+```
+we also run pack and sync together
+```bash
+$ alien pack && alien sync
 ```
