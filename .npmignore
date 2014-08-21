@@ -3,3 +3,4 @@
 node_modules
 test
 !vendors/**/node_modules
+alien.png
