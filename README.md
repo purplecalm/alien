@@ -100,6 +100,11 @@ project
 │ │ └──index@bc23723a6ebdd528a774264d37173293.js
 │ └─┬styles
 │   └──index@db47495f5329bd6a6df53228034d4746.css
+├─┬ver(versions directory)
+│ ├─┬scripts
+│ │ └──index@ver.js (bc23723a6ebdd528a774264d37173293)
+│ └─┬styles
+│   └──index@ver.css (db47495f5329bd6a6df53228034d4746)
 ├─┬src
 │ ├─┬scripts
 │ │ └──...
@@ -136,4 +141,6 @@ $ alien pack && alien sync
 ```
 
 ### help
+```
 Aha!
+```
