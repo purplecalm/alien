@@ -1,10 +1,14 @@
 {
   "name": "alien",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "Fe development tools",
   "author": {
     "name": "purple.calm",
     "email": "purple.calm@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purplecalm/alien.git"
   },
   "bin": {
     "alien": "./bin/run"
