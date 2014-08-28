@@ -102,9 +102,9 @@ project
 │   └──index@db47495f5329bd6a6df53228034d4746.css
 ├─┬ver(versions directory)
 │ ├─┬scripts
-│ │ └──index@ver.js (bc23723a6ebdd528a774264d37173293)
+│ │ └──index.js.ver (bc23723a6ebdd528a774264d37173293)
 │ └─┬styles
-│   └──index@ver.css (db47495f5329bd6a6df53228034d4746)
+│   └──index.css.ver (db47495f5329bd6a6df53228034d4746)
 ├─┬src
 │ ├─┬scripts
 │ │ └──...
