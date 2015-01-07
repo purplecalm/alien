@@ -1,6 +1,6 @@
 {
   "name": "alien",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Fe development tools",
   "author": {
     "name": "purple.calm",
@@ -29,24 +29,11 @@
     "url": "https://github.com/purplecalm/alien/issues"
   },
   "homepage": "https://github.com/purplecalm/alien",
-  "_id": "alien@0.1.6",
-  "_shasum": "6e80910c20c70cf733d5cd45ba161a141f26776a",
-  "_from": "alien@",
-  "_npmVersion": "1.4.14",
-  "_npmUser": {
-    "name": "purple.calm",
-    "email": "purple.calm@gmail.com"
-  },
   "maintainers": [
     {
       "name": "purple.calm",
       "email": "purple.calm@gmail.com"
     }
   ],
-  "dist": {
-    "shasum": "6e80910c20c70cf733d5cd45ba161a141f26776a",
-    "tarball": "http://registry.npmjs.org/alien/-/alien-0.1.6.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/alien/-/alien-0.1.6.tgz"
+  "directories": {}
 }
