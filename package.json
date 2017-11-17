@@ -1,33 +1,27 @@
 {
-  "name": "alien",
-  "version": "0.2.1",
-  "description": "Fe development tools",
   "author": {
-    "name": "purple.calm",
-    "email": "purple.calm@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/purplecalm/alien.git"
+    "email": "purple.calm@gmail.com",
+    "name": "purple.calm"
   },
   "bin": {
     "alien": "./bin/run"
   },
-  "dependencies": {
-    "MD5": "*",
-    "optimist": "0.3.x",
-    "async": "*",
-    "express": "*",
-    "uglify-js": "*",
-    "clean-css": "*",
-    "colors": "*",
-    "hogan.js": "2.0.0"
-  },
-  "scripts": {},
-  "gitHead": "965e0c81e0e48c9bdff6d30006bb4594af9ac1b9",
   "bugs": {
     "url": "https://github.com/purplecalm/alien/issues"
   },
+  "dependencies": {
+    "MD5": "*",
+    "async": "*",
+    "clean-css": "*",
+    "colors": "*",
+    "express": "*",
+    "hogan.js": "2.0.0",
+    "optimist": "0.3.x",
+    "uglify-js": "*"
+  },
+  "description": "Fe development tools",
+  "devDependencies": {},
+  "directories": {},
   "homepage": "https://github.com/purplecalm/alien",
   "maintainers": [
     {
@@ -35,5 +29,12 @@
       "email": "purple.calm@gmail.com"
     }
   ],
-  "directories": {}
+  "name": "alien",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purplecalm/alien.git"
+  },
+  "scripts": {},
+  "version": "0.2.5"
 }
