@@ -16,8 +16,9 @@
     "colors": "*",
     "express": "*",
     "hogan.js": "2.0.0",
+    "inquirer": "^4.0.0",
     "optimist": "0.3.x",
-    "uglify-js": "*"
+    "uglify-js": "^2.6.1"
   },
   "description": "Fe development tools",
   "devDependencies": {},
